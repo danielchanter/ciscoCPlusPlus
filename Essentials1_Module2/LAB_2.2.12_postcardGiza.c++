@@ -9,8 +9,6 @@ int main(void){
     int spot = h;
     int qgap = -h;
 
-for (int q = 0; q < 3; q++){
-    qgap += h;
     for (int i = 0; i < h; i++){
         std::cout << "\n";
         for (int j = 0; j < h2; j++){
@@ -36,6 +34,4 @@ for (int q = 0; q < 3; q++){
             } 
         }
     }
-    std::cout << "\033[" << h << "A";
-}
 }
